@@ -1,0 +1,5 @@
+JSON Web Token(JWT):
+-mechanism used for authentication
+-need jsonwebtoken package
+-generates a token value if the given credentials for authentication is valid,and pass it to user side 
+-every requests from user side after authentication will need token value with it
