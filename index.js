@@ -32,6 +32,6 @@ pfServer.listen(PORT,()=>{
     console.log(`Server is running at:${PORT}`);
 })
 
-pfServer.get('/',(req,res)=>{
-    res.status(200).send("<h1>The get request Hit successfully</h1>")
-})
+// pfServer.get('/',(req,res)=>{
+//     res.status(200).send("<h1>The get request Hit successfully</h1>")
+// })
